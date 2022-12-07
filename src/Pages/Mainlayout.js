@@ -1,11 +1,16 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
 
 import { Typography } from "@mui/material";
-import Imageslider from "../Components/Imageslider";
-import Exploresection from "../Components/Exploresection";
 import { Box, Stack } from "@mui/system";
-import Featuredsection from "../Components/Featuredsection";
+import Navbar from "../Components/MainLayout/Navbar";
+import Imageslider from "../Components/MainLayout/Imageslider";
+import Exploresection from "../Components/MainLayout/Exploresection";
+import Featuredsection from "../Components/MainLayout/Featuredsection";
+import Uncategorizedsection from "../Components/MainLayout/Uncategorizedsection";
+import Awards from "../Components/MainLayout/Awards ";
+import Clients from "../Components/MainLayout/Clients";
+import Contactsection from "../Components/MainLayout/Contactsection";
+import Footer from "../Components/MainLayout/Footer";
 
 const Mainlayout = () => {
   return (
@@ -19,8 +24,8 @@ const Mainlayout = () => {
             fontSize: "70px",
             fontWeight: 700,
             lineHeight: "121px",
-            marginLeft: "220px",
             marginTop: "100px",
+            marginLeft: "50px",
           }}
         >
           SOFTWARE DEVELOPMENT
@@ -31,7 +36,7 @@ const Mainlayout = () => {
             fontSize: "70px",
             fontWeight: 700,
             lineHeight: "121px",
-            marginLeft: "220px",
+            marginLeft: "50px",
             marginBottom: 10,
           }}
           color="#F6BD60"
@@ -42,6 +47,11 @@ const Mainlayout = () => {
       <Imageslider />
       <Exploresection />
       <Featuredsection />
+      <Uncategorizedsection />
+      <Awards />
+      <Clients />
+      <Contactsection />
+      <Footer />
     </Box>
   );
 };

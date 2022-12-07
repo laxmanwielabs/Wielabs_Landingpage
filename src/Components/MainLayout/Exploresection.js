@@ -2,10 +2,10 @@ import { Typography } from "@mui/material";
 import { Box, Stack } from "@mui/system";
 import React from "react";
 
-import Portfolioimg1 from "../asests/Images/portfolioimg1.png";
-import Recimply from "../asests/Images/Recimply.png";
-import Kahaniya from "../asests/Images/Kahaniya.png";
-import Trendition from "../asests/Images/Trendition.png";
+import Portfolioimg1 from "../../asests/Images/portfolioimg1.png";
+import Recimply from "../../asests/Images/Recimply.png";
+import Kahaniya from "../../asests/Images/Kahaniya.png";
+import Trendition from "../../asests/Images/Trendition.png";
 
 const LeftInfo = [
   {
@@ -39,8 +39,8 @@ const RightInfo = [
 
 const Exploresection = () => {
   return (
-    <Box sx={{ margin: "150px 0px 100px 170px" }}>
-      <Stack direction="row" spacing={24}>
+    <Box sx={{ margin: "150px 0px 100px 0px" }}>
+      <Stack direction="row" spacing={26}>
         <Stack direction="column">
           <Stack direction="column" justifyContent="flex-start">
             <Typography

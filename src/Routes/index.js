@@ -8,13 +8,15 @@ import Mainlayout from "../Pages/Mainlayout";
 
 const index = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Mainlayout />} />
-      <Route path="/agency" element={<Agency />} />
-      <Route path="/cases" element={<Cases />} />
-      <Route path="/blogs" element={<Blogs />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
+    <div className="wholepage">
+      <Routes>
+        <Route path="/" element={<Mainlayout />} />
+        <Route path="/agency" element={<Agency />} />
+        <Route path="/cases" element={<Cases />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </div>
   );
 };
 

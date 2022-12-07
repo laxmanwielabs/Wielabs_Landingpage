@@ -1,7 +1,7 @@
 import { Stack } from "@mui/system";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
-import Logo from "../asests/Images/Wielabslogo.png";
+import Logo from "../../asests/Images/Wielabslogo.png";
 import { Box } from "@mui/system";
 import { Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
@@ -33,10 +33,17 @@ const Navbar = () => {
   const navigate = useNavigate();
   return (
     <Box
-      sx={{ marginLeft: "150px", position: "fixed", top: "20px", zIndex: 1 }}
+      sx={{
+        position: "fixed",
+        top: "0px",
+        zIndex: 1,
+        backgroundColor: " #fff ",
+        py: 2,
+        px: 2,
+      }}
     >
-      <Stack direction="row" alignItems="center" spacing={100}>
-        <Stack direction="row" spacing={4} alignItems="center">
+      <Stack direction="row" alignItems="center" spacing={103}>
+        <Stack direction="row" spacing={10} alignItems="center">
           <img
             src={Logo}
             width="304px"

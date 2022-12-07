@@ -3,9 +3,9 @@ import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 // import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import SliderImg1 from "../asests/Images/Sliderimg1.jpg";
-import SliderImg2 from "../asests/Images/Sliderimg2.jpg";
-import SliderImg3 from "../asests/Images/Sliderimg3.jpg";
+import SliderImg1 from "../../asests/Images/Sliderimg1.jpg";
+import SliderImg2 from "../../asests/Images/Sliderimg2.jpg";
+import SliderImg3 from "../../asests/Images/Sliderimg3.jpg";
 
 const images = [
   { url: SliderImg1, caption: "Something" },
@@ -15,9 +15,9 @@ const images = [
 
 const Imageslider = () => {
   return (
-    <Box sx={{ marginLeft: "173px" }}>
+    <Box sx={{}}>
       <SimpleImageSlider
-        width={1722}
+        width={1746}
         height={820}
         images={images}
         showBullets={true}

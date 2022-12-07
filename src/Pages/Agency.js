@@ -1,7 +1,8 @@
 import React from "react";
+import Navbar from "../Components/MainLayout/Navbar";
 
 const Agency = () => {
-  return <div>Agency</div>;
+  return <Navbar />;
 };
 
 export default Agency;
